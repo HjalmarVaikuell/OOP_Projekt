@@ -1,4 +1,4 @@
-public class MänniPeenpalk extends Mänd{
+public class MänniPeenpalk extends Mänd {
     private int tegelikKogus;
     public MänniPeenpalk(double keskosaDiameetercm, double palgiPikkus, int kogus, String puuliik, int tegelikKogus) {
         super(keskosaDiameetercm, palgiPikkus, kogus, puuliik);

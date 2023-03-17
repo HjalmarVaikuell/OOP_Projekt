@@ -1,4 +1,4 @@
-public class Mänd extends Puu{
+public class Mänd extends Puu {
     private String puuliik;
     private int kogus;
 
