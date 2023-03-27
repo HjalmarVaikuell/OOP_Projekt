@@ -11,6 +11,10 @@ public class Mänd extends Puu {
         System.out.println("Männi eest saadav raha on " + Math.round((super.arvutaTihumeeter()*kogus*67.27)*100)/100.0); //Käivitab klassis Puu oleva meetodi
     }
 
+    public int getKogus() {
+        return kogus;
+    }
+
     @Override //meetodi ülekatmine
     public String puuliik() {
         return puuliik;

@@ -12,6 +12,10 @@ public class Kask extends Puu {
         System.out.println("Kase eest saadav raha on " + Math.round((super.arvutaTihumeeter()*54.05*kogus)*100)/100.0);
     }
 
+    public int getKogus() {
+        return kogus;
+    }
+
     @Override //meetodi ülekatmine
     public String puuliik() {
         return puuliik;

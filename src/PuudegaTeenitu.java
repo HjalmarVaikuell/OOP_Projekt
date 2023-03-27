@@ -20,7 +20,7 @@ public class PuudegaTeenitu {
         Kuusk kuusk = new Kuusk(0.354,2,51,"Harilik kuusk");
         kuusk.arvutaHind();
 
-        MänniPeenpalk männiPeenpalk = new MänniPeenpalk(0.214,2,51,"Harilik mänd", 41);
+        MänniPeenpalk männiPeenpalk = new MänniPeenpalk(0.214,2,51,"Harilik mänd");
         männiPeenpalk.arvutaHind();
         System.out.println();
         männiPeenpalk.puuliik(); //dünaamiline seostamine, võtab klassist Mänd kirjeldatud meetodi.

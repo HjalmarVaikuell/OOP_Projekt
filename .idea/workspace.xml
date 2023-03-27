@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="117df5d7-824d-4d68-ba7d-89ac258c794f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/palgid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/palgid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kuusk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kuusk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mänd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mänd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MänniPeenpalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MänniPeenpalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PuudegaTeenitu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuudegaTeenitu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Hjalmar Vaiküll/Documents/Kool/II semester/OOP/OOP_Projekt",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "last_opened_file_path": "C:/Users/Hjalmar Vaiküll/Documents/Kool/II semester/Programmeerimine II",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   }
 }]]></component>
@@ -57,13 +62,20 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1679067296970</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Muutsime palke">
+      <created>1679071373049</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1679071373049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit algus" />
     <MESSAGE value="Faili kirjutamise osa tehtud" />
-    <option name="LAST_COMMIT_MESSAGE" value="Faili kirjutamise osa tehtud" />
+    <MESSAGE value="Muutsime palke" />
+    <option name="LAST_COMMIT_MESSAGE" value="Muutsime palke" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
