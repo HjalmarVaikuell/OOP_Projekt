@@ -1,14 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Puu {
     private double keskosaDiameeterM;
     private double palgiPikkus;
+    private List<Float> puud = new ArrayList<>();
 
     public Puu(double keskosaDiameeterM, double palgiPikkus) {
         this.keskosaDiameeterM = keskosaDiameeterM;
         this.palgiPikkus = palgiPikkus;
     }
-    public float arvutaTihumeeter(){
-        return (float) ((float) Math.PI*Math.pow(keskosaDiameeterM/2,2)*palgiPikkus);
+    public double arvutaTihumeeter(){
+        return  ( Math.PI*Math.pow(keskosaDiameeterM/2,2)*palgiPikkus);
     }
+
+
     public String puuliik(){
         return "Puu";
     }
