@@ -22,6 +22,6 @@ public class Puu {
     @Override
     public String toString() {
         return puuliik() +
-                ", puu mõõdud: " + keskosaDiameeterM + ", " +palgiPikkus;
+                ", palgi mõõdud: " + keskosaDiameeterM + ", " +palgiPikkus;
     }
 }

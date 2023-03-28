@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="117df5d7-824d-4d68-ba7d-89ac258c794f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/palgid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/palgid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Haab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Haab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HaavaPaberipuu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HaavaPaberipuu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HaavaPeenpalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HaavaPeenpalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KasePaberipuu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KasePaberipuu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KasePeenpalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KasePeenpalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KuusePeenpalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KuusePeenpalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kuusepaberipuu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kuusepaberipuu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kuusk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kuusk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mänd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mänd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MänniPaberipuu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MänniPaberipuu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MänniPeenpalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MänniPeenpalk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PuudegaTeenitu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuudegaTeenitu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +81,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1680001625815</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Aplha versioon">
+      <created>1680024110337</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1680024110337</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,7 +119,8 @@
     <MESSAGE value="Muutsime palke" />
     <MESSAGE value="Lisame Aneti tehtud klassid" />
     <MESSAGE value="Enam-vähem tehtud projekt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enam-vähem tehtud projekt" />
+    <MESSAGE value="Aplha versioon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aplha versioon" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -8,6 +8,14 @@ import java.util.Scanner;
 public class PuudegaTeenitu {
     public static void main(String[] args) throws IOException {
 
+        System.out.println("\n" +
+                "See siin on programm, millega saab kirjutada faili erinevate puuliikide palkide andmeid.\n" +
+                "Samuti saab selle programmiga neid andmeid pärast failist välja lugeda ning kasutada.\n" +
+                "Programmiga saab väljastada loetaval kujul palkide andmeid ning arvutada kindlat liiki palkide ruumala ning nendest teenitavat tulu.\n" +
+                "Programm ei lase sisestada valeandmeid ning on võimalikult kasutajasõbralik ning mõeldud efektiivseks kasutamiseks.\n" +
+                "Programm on sätestatud automaatselt töötama failiga 'palgid.txt'\n" +
+                "Head sisestamist:)\n");
+
         Scanner scanner = new Scanner(System.in);
         String sisestus;
         boolean kontroll = true;
@@ -35,6 +43,7 @@ public class PuudegaTeenitu {
                 Loetihumeetrid(LoePalke("palgid.txt"));
                 System.out.println();
             }
+            else System.out.println("\nPalun sisesta uuesti\n");
         }
     }
 
