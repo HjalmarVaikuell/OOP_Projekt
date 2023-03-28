@@ -19,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/src/Mänd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mänd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MänniPaberipuu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MänniPaberipuu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MänniPeenpalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MänniPeenpalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Puu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Puu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PuudegaTeenitu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PuudegaTeenitu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1679935627649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Enam-vähem tehtud projekt">
+      <created>1680001625815</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1680001625815</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,7 +125,8 @@
     <MESSAGE value="Faili kirjutamise osa tehtud" />
     <MESSAGE value="Muutsime palke" />
     <MESSAGE value="Lisame Aneti tehtud klassid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lisame Aneti tehtud klassid" />
+    <MESSAGE value="Enam-vähem tehtud projekt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enam-vähem tehtud projekt" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

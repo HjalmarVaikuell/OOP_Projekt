@@ -69,7 +69,7 @@ public class PuudegaTeenitu {
                 haavatm += saadudtm;
             }
         }
-        System.out.println("Kuuskede tihumeetrid kokku " + kuusetm); //väljastab kogu info
+        System.out.println("\nKuuskede tihumeetrid kokku " + kuusetm); //väljastab kogu info
         System.out.println("Kuusepuude pealt saadud raha " + kuuseHind);
         System.out.println("Mändide tihumeetrid kokku " + männitm);
         System.out.println("Männipuude pealt saadud raha " + männiHind);
@@ -80,6 +80,7 @@ public class PuudegaTeenitu {
     }
 
     static void väljastaPuud(List<Puu> puud) {
+        System.out.println();
         for (Puu puu : puud) {
             System.out.println(puu);
         }
@@ -92,19 +93,26 @@ public class PuudegaTeenitu {
 
         Scanner scanner = new Scanner(file);
         boolean kontroll = true;//Näitamaks, kas esimene andmetega rida leiti üles
+        boolean onAndmeid = true;//Näitamaks, kas failist leiti ridu
         String rida;//Vaadeldav rida
         String algKuupäev = null;//Esimese sissekande kuupäev
         String lõppKuupäev = null;//Viimase sissekande kuupäev
 
-        String[] liigid = new String[] {"mänd", "kuusk", "kask", "haab"};//Kontrolliks sobivad puuliigid
 
-        while (kontroll) {
-            String esimeneRida = scanner.nextLine();
-            if (esimeneRida.contains("---")) {
-                algKuupäev = esimeneRida.split(" ")[1];
-                kontroll = false;
+        String[] liigid = new String[] {"mänd", "kuusk", "kask", "haab"};//Kontrolliks sobivad puuliigid
+        try {
+            while (kontroll) {
+                String esimeneRida = scanner.nextLine();
+                if (esimeneRida.contains("---")) {
+                    algKuupäev = esimeneRida.split(" ")[1];//Võtab kuupäeva reast välja
+                    kontroll = false;
+                }//Otsib esimese andmetega rea üles
             }
+        } catch (Exception NoSuchElementException) {
+            onAndmeid = false;
+            System.out.println("Failis puuduvad andmed, mida lugeda");
         }
+
 
         while (scanner.hasNextLine()) {
 
@@ -120,14 +128,16 @@ public class PuudegaTeenitu {
 
             for (String liik : liigid) {
                 if (palk[0].toLowerCase().contains(liik)) {
-                    if (liik.equals("kuusk")) puud.add(new Kuusk(Double.parseDouble(palk[1]), Double.parseDouble(palk[2]), 1,palk[0]));
-                    else if (liik.equals("mänd")) puud.add(new Mänd(Double.parseDouble(palk[1]), Double.parseDouble(palk[2]), 1,palk[0]));
-                    else if (liik.equals("kask")) puud.add(new Kask(Double.parseDouble(palk[1]), Double.parseDouble(palk[2]), 1,palk[0]));
-                    else if (liik.equals("haab")) puud.add(new Haab(Double.parseDouble(palk[1]), Double.parseDouble(palk[2]), 1,palk[0]));
-                }
-            }
-        }
-        System.out.println("Lugesin puude andmed alates " + algKuupäev + " kuni " + lõppKuupäev + ".");
+                    if (liik.equals("kuusk")) puud.add(new Kuusk(Double.parseDouble(palk[1]), Double.parseDouble(palk[2]), palk[0]));
+                    else if (liik.equals("mänd")) puud.add(new Mänd(Double.parseDouble(palk[1]), Double.parseDouble(palk[2]), palk[0]));
+                    else if (liik.equals("kask")) puud.add(new Kask(Double.parseDouble(palk[1]), Double.parseDouble(palk[2]), palk[0]));
+                    else if (liik.equals("haab")) puud.add(new Haab(Double.parseDouble(palk[1]), Double.parseDouble(palk[2]), palk[0]));
+                }//Kui on sobilik liik, siis muudab palgi andmed isendiks
+            }//Kontrollib kõik võimalikud puuliigid üle nägemaks, milline on antud palgi puuliik
+        }//Tsükkel, mis käib kõik faili read läbi
+
+        if (onAndmeid) System.out.println("Lugesin puude andmed alates " + algKuupäev + " kuni " + lõppKuupäev + ".");//Kui failis on andmeid, mida lugeda, siis väljastab ka kuupäevad, millal oli esimene ja millal viimane sisestus
+
         return puud;
     }
 
