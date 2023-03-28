@@ -7,8 +7,8 @@ public class Kuusk extends Puu {
         this.kogus = kogus;
         this.puuliik = puuliik;
     }
-    public void arvutaHind(){
-        System.out.println("Kuuse eest saadav raha on " + Math.round((super.arvutaTihumeeter()*74.04*kogus)*100)/100.0);
+    public double arvutaHind(){
+        return Math.round((super.arvutaTihumeeter()*74.04*kogus)*100)/100.0;
     }
 
     public int getKogus() {

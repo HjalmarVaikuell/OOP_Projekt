@@ -5,7 +5,7 @@ public class Kuusepaberipuu extends Kuusk{
     }
 
     @Override
-    public void arvutaHind() {
-        System.out.println("Kuusepaberipuidu eest saadav raha on " + Math.round((super.arvutaTihumeeter()*42.04*getKogus())*100)/100.0);
+    public double arvutaHind() {
+        return Math.round((super.arvutaTihumeeter()*42.04*getKogus())*100)/100.0;
     }
 }

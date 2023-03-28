@@ -8,8 +8,8 @@ public class Kask extends Puu {
         this.puuliik = puuliik;
     }
 
-    public void arvutaHind(){
-        System.out.println("Kase eest saadav raha on " + Math.round((super.arvutaTihumeeter()*54.05*kogus)*100)/100.0);
+    public double arvutaHind(){
+        return Math.round((super.arvutaTihumeeter()*54.05*kogus)*100)/100.0;
     }
 
     public int getKogus() {

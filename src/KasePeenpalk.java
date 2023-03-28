@@ -6,7 +6,7 @@ public class KasePeenpalk extends Kask{
     }
 
     @Override //meetodi ülekatmine
-    public void arvutaHind() {
-        System.out.println("Männipeenpalgi eest saadav raha on " + Math.round((super.arvutaTihumeeter()*40.35*tegelikKogus)*100)/100.0);
+    public double arvutaHind() {
+        return Math.round((super.arvutaTihumeeter()*40.35*tegelikKogus)*100)/100.0;
     }
 }

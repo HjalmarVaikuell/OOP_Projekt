@@ -4,7 +4,7 @@ public class KuusePeenpalk extends Kuusk{
     }
 
     @Override //meetodi ülekatmine
-    public void arvutaHind() {
-        System.out.println("Kuusepeenpalgi eest saadav raha on " + Math.round((super.arvutaTihumeeter()*46.3*getKogus())*100)/100.0);
+    public double arvutaHind() {
+        return Math.round((super.arvutaTihumeeter()*46.3*getKogus())*100)/100.0;
     }
 }

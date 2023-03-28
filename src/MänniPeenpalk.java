@@ -5,7 +5,7 @@ public class MänniPeenpalk extends Mänd {
     }
 
     @Override //meetodi ülekatmine
-    public void arvutaHind() {
-        System.out.println("Männipeenpalgi eest saadav raha on " + Math.round((super.arvutaTihumeeter()*40.35*getKogus())*100)/100.0);
+    public double arvutaHind() {
+        return Math.round((super.arvutaTihumeeter()*40.35*getKogus())*100)/100.0;
     }
 }

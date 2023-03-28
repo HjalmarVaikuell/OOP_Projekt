@@ -7,8 +7,8 @@ public class Haab extends Puu{
         this.kogus = kogus;
         this.puuliik = puuliik;
     }
-    public void arvutaHind(){
-        System.out.println("Haava eest saadav raha on " + Math.round((super.arvutaTihumeeter()*92.15*kogus)*100)/100.0);
+    public double arvutaHind(){
+        return Math.round((super.arvutaTihumeeter()*92.15*kogus)*100)/100.0;
     }
 
     public int getKogus() {
